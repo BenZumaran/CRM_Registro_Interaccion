@@ -12,5 +12,6 @@ public interface UsuarioService {
 
 	public abstract void eliminaUsuario(String idUsuario);
 
-	public abstract Optional<Usuario> buscarUsuarioPorId(String idUsuario);
+	public abstract Optional<Usuario> buscarUsuarioPorId(String idUsuario);	
+	
 }
